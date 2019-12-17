@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Details</title>
+<link rel="stylesheet" href="cust.css">
+</head>
+<body>
+	<form action="MainServlet" method="get">
+		<div class="main">
+			<h2>Customer Details</h2>
+			<div class="gap">
+				<label>Name:</label> <input type="text" name="cname">
+			</div>
+			<div class="gap">
+				<label>Email</label> <input type="text" name="cemail">
+			</div>
+			<div class="gap">
+				<label>City</label> <input type="text" name="city">
+			</div>
+			<div class="store gap">
+				<button type="submit" target="_blank">Store</button>
+			</div>
+			<div class="link gap">
+				<a href="fetch.html" target="_blank">Fetch Details by Id</a>
+			</div>
+			<div class="link gap">
+				<a href="searchById.html" target="_blank">Update Customer by Id</a>
+			</div>
+			<div class="link gap">
+				<a href="FetchAll" target="_blank">Fetch All Customers</a>
+			</div>
+			<div class="link gap">
+				<a href="delete.html" target="_blank">Delete A Customer</a>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

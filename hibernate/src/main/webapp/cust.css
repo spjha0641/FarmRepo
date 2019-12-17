@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+.main{
+	margin: auto;
+	margin-top: 10em;
+	width: 30%;
+	padding: 5px;
+	border: 2px solid;
+	border-color: black;
+	
+}
+
+.gap{
+	padding: 5px;
+}
+
+.store{
+	padding-left: 5px;
+}
+
+.link{
+	text-align: center;
+}

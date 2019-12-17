@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Details</title>
+<link rel="stylesheet" href="cust.css">
+</head>
+<body>
+	<form action="InsertEmpServlet" method="get">
+		<div class="main">
+			<h2>Employee Info</h2>
+			<div class="gap">
+				<label>Name:</label> <input type="text" name="ename">
+			</div>
+			<div class="gap">
+				<label>Salary</label> <input type="number" name="esal">
+			</div>
+			<div class="gap">
+				<label>Date of Joining</label> <input type="date" name="edoj">
+			</div>
+			<div class="store gap">
+				<button type="submit" target="_blank">AddEmployee</button>
+			</div>
+		<div class="link gap">
+				<a href="FetchAllEmployee" target="_blank">Fetch All Details</a>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
